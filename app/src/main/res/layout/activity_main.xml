@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sign_in_background"
+    tools:context="com.example.student.onlinechat.MainActivity">
+
+    <TextView
+        android:id="@+id/text_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:layout_margin="10dp"
+        android:padding="8dp"
+        android:textSize="22sp"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true" />
+    <EditText
+        android:id="@+id/edit_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:hint="@string/login"
+        android:layout_below="@+id/text_welcome"/>
+
+    <EditText
+        android:id="@+id/edit_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:hint="@string/password"
+        android:layout_below="@+id/edit_login"/>
+
+    <Button
+        android:id="@+id/button_log_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_password"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:padding="8dp"
+        android:text="@string/button_login"
+        android:onClick="logIn"/>
+
+    <Button
+        android:id="@+id/button_sign_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_log_in"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:padding="8dp"
+        android:layout_margin="10dp"
+        android:text="@string/button_signup"
+        android:onClick="signUp"/>
+
+</RelativeLayout>

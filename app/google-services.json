@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "299829050440",
+    "firebase_url": "https://onlinechat-5b4e4.firebaseio.com",
+    "project_id": "onlinechat-5b4e4",
+    "storage_bucket": "onlinechat-5b4e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299829050440:android:6e209ba5e865efe6",
+        "android_client_info": {
+          "package_name": "com.example.student.onlinechat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "299829050440-4eaf6bpq2ehsep73c6lpah3vp1qqhf0a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgny6y-74ZbrcDQ3k8Ww3fkDkwFX8dk2M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

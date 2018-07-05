@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">OnlineChat</string>
+
+    <string name="welcome">Welcome. Please log in.</string>
+    <string name="login">Enter login</string>
+    <string name="password">Enter password</string>
+    <string name="button_login">Log in</string>
+    <string name="button_signup">Sign up</string>
+
+    <string name="button_send">SEND</string>
+    <string name="message">your message</string>
+</resources>
